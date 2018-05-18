@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activities.MainActivity">
+
+    <Button
+        android:id="@+id/regusers"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+
+        android:text="Registerd Users" />
+
+    <Button
+        android:id="@+id/addimages"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:text="Add Images" />
+
+    <Button
+        android:id="@+id/imgrequest"
+        android:layout_width="153dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Image Requests" />
+
+
+    <Button
+        android:id="@+id/bookingrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Booking Requests" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</android.support.v7.widget.LinearLayoutCompat>

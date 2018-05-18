@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.androiddeveloper.gardenapp.Activities.MainActivity"
+    android:background="@color/colorAccent">
+
+    <!-- <include
+         layout="@layout/appbar2"
+         android:id="@+id/tb"
+         app:layout_collapseMode="pin"/>-->
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignLeft="@+id/txttitle"
+        android:layout_alignStart="@+id/txttitle"
+        android:layout_below="@+id/home"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="10dp"
+
+        android:background="#FFF"
+        android:src="@drawable/alpinehouse" />
+
+    <TextView
+        android:id="@+id/txttitle"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/img"
+        android:layout_marginTop="18dp"
+        android:background="#FFF"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="RHS Garden Wisley"
+        android:textStyle="bold|italic"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+
+        android:layout_below="@+id/txttitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/txtdetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txttitle"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFF"
+            android:scrollbars="horizontal"
+            android:text="The Royal Horticultural Society's garden at Wisley in the English county of Surrey south of London, is one of four gardens run by the Society, the others being Harlow Carr,
+            Hyde Hall and Rosemoor. Wisley is the second most visited paid entry garden in the United Kingdom after the Royal Botanic Gardens, Kew, with 959,434 visitors in the year to 31 January 2010
+    Wisley has a large number of features, including the following Glasshouse with desert, tropical and temperate climates, and with special topical displays
+    Clore Learning Centre.Alpine houses.Laboratory.Pinetum, National, heather, collection, Visitor facilities include cafés and restaurant, car parks, plant centre, etc."
+
+            android:textColor="#000"
+            android:textSize="12dp" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/img"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/img"
+        android:text="Next"
+        android:id="@+id/btnnext"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="22dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863459146925",
+    "firebase_url": "https://batterysaver-8be94.firebaseio.com",
+    "project_id": "batterysaver-8be94",
+    "storage_bucket": "batterysaver-8be94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863459146925:android:5c9e73864d8d0b24",
+        "android_client_info": {
+          "package_name": "com.example.androiddeveloper.gardenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863459146925-99lbd11ggse7e6ei2tainlbb9hrkfdj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJli1WDjVsi5s6JZgsH-azoeLXAUxxRPY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
